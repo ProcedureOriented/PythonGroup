@@ -26,9 +26,9 @@ def getDetail(str1, totalflag=0):
     '''提取点赞评论转发数字返回列表, totalflag:0，单条微博；1，日微博统计'''
     if totalflag:
         rlt = re.findall(r'博客数：(\d+)，点赞数：(\d+)，评论数：(\d+)，转发数：(\d+)\n', str1)
-        return rlt
+        return list(rlt[0])
     rlt = re.findall(r'点赞数：(\d+)，评论数：(\d+)，转发数：(\d+)\n', str1)
-    return rlt
+    return list(rlt[0])
 
 def writeData(ls, keyword, summaryflag=0):
     '''写入数据'''
