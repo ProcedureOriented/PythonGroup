@@ -19,4 +19,4 @@ by **Bowen Chen**
   使用折线图观察关键词组合的基本趋势，在此可以直接使用pandas内置方法按时间序列画出折线图。对正文内容进行合并、修整、分词，再建立词云对象可生成对应词云，最后还可以叠加原图以使形状更明显
   
 ## presentation  
-by **Jun Li** & **Zhihao Hong**
+by **All group members**
