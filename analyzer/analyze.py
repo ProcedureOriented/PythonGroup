@@ -41,7 +41,7 @@ def snowanalysis(cmtlist, filename):
     plt.hist(sentimentslist, bins=np.arange(0, 1, 0.01))
     plt.show()
 
-        # 对分值进行归一化（尝试修正模型的偏移，非必须）
+        # 对分值进行归一化（尝试修正模型的偏移）
         # score = score*0.5/0.7244678128321579
         # score = (score - score.min()) / (score.max() - score.min())
 

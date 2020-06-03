@@ -64,8 +64,8 @@ for index in indexList:
     plt.hist(gp, density=0, bins=np.arange(0, 1.05, 0.05), color='steelblue')
     plt.xlabel(index+'情绪评分')   
     plt.ylabel('数量')
-    plt.show()
     plt.savefig(picpath+'bar %s.png' %(index))
+    plt.show()
 
     gplist.append(gp)#为绘制箱型图做准备
 
@@ -74,8 +74,8 @@ for index in indexList:
 plt.close()
 plt.boxplot(gplist)
 plt.title(','.join(indexList))
-plt.show()
 plt.savefig(picpath+'box.png')
+plt.show()
 
 # In[3]
 # 绘制密度分度叠加图
