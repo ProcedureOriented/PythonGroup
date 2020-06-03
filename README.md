@@ -11,4 +11,4 @@ by Pingyu Jin
 by Bowen Chen
 
 ## presentation
-by Jun Li
+by Jun Li & Zhihao Hong
